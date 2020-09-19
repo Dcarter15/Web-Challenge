@@ -1,0 +1,23 @@
+body {
+    background: rgb(109 239 249 / 96%);
+}
+
+.Lat_vs_Wind_Speed {
+    width: 20px;
+    height: 20px;
+}
+
+.Lat_vs_Max_Temp {
+    width: 20px;
+    height: 20px;
+}
+
+.Lat_vs_Hum {
+    width: 20px;
+    height: 20px;
+}
+
+.Lat_vs_Cloud {
+    width: 20px;
+    height: 20px;
+}
