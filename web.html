@@ -6,10 +6,10 @@
         <meta name="description" content="Web Assignment">
         <title>The Weather Report</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <h1>Welcome to The Weather Data Center!</h1>
             <hr>
             <h2>We're here to help tell the weather</h2>
@@ -23,20 +23,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="web.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="web.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Plots
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Plot One</a>
-                    <a class="dropdown-item" href="#">Plot Two</a>
-                    <a class="dropdown-item" href="#">Plot Three</a>
-                    <a class="dropdown-item" href="#">Plot Four</a>
+                    <a class="dropdown-item" href="plot1.html">Plot One</a>
+                    <a class="dropdown-item" href="plot2.html">Plot Two</a>
+                    <a class="dropdown-item" href="plot3.html">Plot Three</a>
+                    <a class="dropdown-item" href="plot4.html">Plot Four</a>
                   </div>
                 </li>
               </ul>
@@ -58,23 +61,24 @@
                 <div class="col-md-6">
                     <p>
                         This project is a test of my HTML skills. The purpose of the wedpage is to show my knowledge of the components that create a body, my understanding of how to you BootStrap, what I am capable of doing with CSS, and the creativity I have in regards to programming. 
-                    </p><img alt="Lat_vs_Max_Temp" src="C:\Users\15309\OneDrive\Desktop\Bootcamp\Web-Challenge\Resources\assets\images\Fig1.png"/>
+                    </p>
+                    <img alt="Lat_vs_Max_Temp" src="Resources\assets\images\Fig1.png"/>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6">
-                            <img alt="Lat_vs_Hum" src="C:\Users\15309\OneDrive\Desktop\Bootcamp\Web-Challenge\Resources\assets\images\Fig2.png" />
+                            <img class="fig2" alt="Lat_vs_Hum" src="Resources\assets\images\Fig2.png" />
                         </div>
                         <div class="col-md-6">
-                            <img alt="Lat_vs_Cloud" src="C:\Users\15309\OneDrive\Desktop\Bootcamp\Web-Challenge\Resources\assets\images\Fig3.png" />
+                            <img class="fig3" alt="Lat_vs_Cloud" src="Resources\assets\images\Fig3.png" />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <img alt="Lat_vs_Max_Temp" src="C:\Users\15309\OneDrive\Desktop\Bootcamp\Web-Challenge\Resources\assets\images\Fig1.png" />
+                            <img class="fig1" alt="Lat_vs_Max_Temp" src="Resources\assets\images\Fig1.png" />
                         </div>
                         <div class="col-md-6">
-                            <img alt="Lat_vs_Wind_Speed" src="C:\Users\15309\OneDrive\Desktop\Bootcamp\Web-Challenge\Resources\assets\images\Fig4.png" />
+                            <img class="fig4" alt="Lat_vs_Wind_Speed" src="Resources\assets\images\Fig4.png" />
                         </div>
                     </div>
                 </div>
